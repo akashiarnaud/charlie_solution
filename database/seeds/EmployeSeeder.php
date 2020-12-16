@@ -16,7 +16,7 @@ class EmployeSeeder extends Seeder
             'nom' => 'Sofiane',
             'prenom' => 'Matsen',
             'adresse' => '18 Rue de la paix, Paris',
-            'tel' => '0184282585',
+            'tel' => '00248488',
             'idEntreprise' => 1
         ]);
         DB::table('employes')->insert([
@@ -39,6 +39,20 @@ class EmployeSeeder extends Seeder
             'adresse' => '18 Boulevard victor hugo, Lille',
             'tel' => '0184282585',
             'idEntreprise' => 2
+        ]);
+        DB::table('employes')->insert([
+            'nom' => 'Pierre',
+            'prenom' => 'Jean',
+            'adresse' => '18 rue de la famille, Lille',
+            'tel' => '0684282585',
+            'idEntreprise' => 3
+        ]);
+        DB::table('employes')->insert([
+            'nom' => 'Pouillet',
+            'prenom' => 'Laetitia',
+            'adresse' => '18 rue paul langevin, Lille',
+            'tel' => '0680272585',
+            'idEntreprise' => 3
         ]);
     }
 }

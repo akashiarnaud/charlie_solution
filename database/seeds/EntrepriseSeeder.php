@@ -14,18 +14,25 @@ class EntrepriseSeeder extends Seeder
     {
         //
         DB::table('entreprises')->insert([
-            'nom' => 'test',
-            'adresse' => '17 empire state building',
+            'nom' => 'Entreprise1',
+            'adresse' => '14 Boulevard victor hugo, LILLE',
             'tel' => '0184282585',
-            'lat' => 28.4872,
-            'lon' => -81.41253,
+            'lat' => 50.4872,
+            'lon' => 3.41253,
         ]);
         DB::table('entreprises')->insert([
-            'nom' => 'test2',
-            'adresse' => '22 charle de bois',
+            'nom' => 'Entreprise2',
+            'adresse' => '22 charle de bois, Lille',
             'tel' => '0145879898',
-            'lat' => 17.25444,
-            'lon' => 81.41253,
+            'lat' => 57.25444,
+            'lon' => 7.41253,
+        ]);
+        DB::table('entreprises')->insert([
+            'nom' => 'Entreprise3',
+            'adresse' => '17 rue nationale, Lille',
+            'tel' => '078484484',
+            'lat' => 54.4872,
+            'lon' => 1.41253,
         ]);
     }
 }
