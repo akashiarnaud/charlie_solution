@@ -56,7 +56,7 @@ php artisan db:seed
 ### Ressenti et temps de réalisation
 Première expérience sur le framework Laravel, un framework façile à prendre en main et très intéressant
 Le sujet était claire. Malgrès les différents difficultés au cours de sa réalisation et la suivi des cours entre temps :( ,
-j'ai le réussi à le réaliser dans le temps imparti en organisant mon emploi du temps et en travaillant surtout les soirs après les cours ;)
+j'ai le réussi à le réaliser dans le temps imparti en organisant mon emploi du temps.
 En prenant en compte tous ces facteurs, le temps de réalisation sera donc en tout entre 15h et 16h.
 
  
