@@ -52,7 +52,10 @@ php artisan db:seed
 `db:create` pour créer la base 
 `migrate` pour creer nos table
 `db:seed` pour ajouter quelques données afin que notre site aie un peu de contenu (bien sur on pourra ajouter d'autre données à partir du site plus tard)
-
+* Lancer maintenant le projet
+```sh
+php artisan serve
+```
 ### Ressenti et temps de réalisation
 Première expérience sur le framework Laravel, un framework façile à prendre en main et très intéressant
 Le sujet était claire. Malgrès les différents difficultés au cours de sa réalisation et la suivi des cours entre temps :( ,
