@@ -49,5 +49,6 @@
 
 
   <a href="{{ route('employes.create')}}" class="btn btn-primary">Add new Employe</a>
+  <a href="http://127.0.0.1:8000/" class="btn btn-danger">Home</a>
 <div>
 @endsection
